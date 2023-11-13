@@ -1,0 +1,14 @@
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Data\Api.AgileProj.Data.Entity\bin\Debug\net7.0\Api.AgileProj.Data.Entity.deps.json
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Data\Api.AgileProj.Data.Entity\bin\Debug\net7.0\Api.AgileProj.Data.Entity.dll
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Data\Api.AgileProj.Data.Entity\bin\Debug\net7.0\Api.AgileProj.Data.Entity.pdb
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Data\Api.AgileProj.Data.Entity\obj\Debug\net7.0\Api.AgileProj.Data.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Data\Api.AgileProj.Data.Entity\obj\Debug\net7.0\Api.AgileProj.Data.Entity.AssemblyInfoInputs.cache
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Data\Api.AgileProj.Data.Entity\obj\Debug\net7.0\Api.AgileProj.Data.Entity.AssemblyInfo.cs
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Data\Api.AgileProj.Data.Entity\obj\Debug\net7.0\Api.AgileProj.Data.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Data\Api.AgileProj.Data.Entity\obj\Debug\net7.0\Api.AgileProj.Data.Entity.dll
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Data\Api.AgileProj.Data.Entity\obj\Debug\net7.0\refint\Api.AgileProj.Data.Entity.dll
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Data\Api.AgileProj.Data.Entity\obj\Debug\net7.0\Api.AgileProj.Data.Entity.pdb
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Data\Api.AgileProj.Data.Entity\obj\Debug\net7.0\ref\Api.AgileProj.Data.Entity.dll
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Data\Api.AgileProj.Data.Entity\bin\Debug\net7.0\Api.AgileProj.Data.Entity.runtimeconfig.json
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Data\Api.AgileProj.Data.Entity\obj\Debug\net7.0\Api.AgileProj.Data.Entity.csproj.AssemblyReference.cache
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Data\Api.AgileProj.Data.Entity\obj\Debug\net7.0\Api.AgileProj.Data.Entity.genruntimeconfig.cache

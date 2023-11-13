@@ -1,0 +1,1 @@
+ dotnet ef dbcontext scaffold "Server=localhost;User=root;Password=;Database=simpl_AgileProj;port=3306" Pomelo.EntityFrameworkCore.MySql -o Model --context-dir ../Api.AgileProj.Data.Context/ -c AgileProjDBContext  -d -f
