@@ -38,11 +38,11 @@ public partial class AgileProjDBContext : DbContext
 
         modelBuilder.Entity<Account>(entity =>
         {
-            entity.HasKey(e => e.IdAccount).HasName("PRIMARY");
+            entity.HasKey(e => e.Id).HasName("PRIMARY");
 
             entity.ToTable("accounts");
 
-            entity.Property(e => e.IdAccount).HasColumnName("id_account");
+            entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.Password)
                 .HasMaxLength(100)
                 .HasColumnName("password");
@@ -53,13 +53,13 @@ public partial class AgileProjDBContext : DbContext
 
         modelBuilder.Entity<Action>(entity =>
         {
-            entity.HasKey(e => e.IdAction).HasName("PRIMARY");
+            entity.HasKey(e => e.Id).HasName("PRIMARY");
 
             entity.ToTable("actions");
 
             entity.HasIndex(e => e.IdTask, "id_task");
 
-            entity.Property(e => e.IdAction).HasColumnName("id_action");
+            entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.IdTask).HasColumnName("id_task");
             entity.Property(e => e.IsCompleted).HasColumnName("is_completed");
             entity.Property(e => e.TitleAction)
@@ -69,11 +69,11 @@ public partial class AgileProjDBContext : DbContext
 
         modelBuilder.Entity<Project>(entity =>
         {
-            entity.HasKey(e => e.IdProject).HasName("PRIMARY");
+            entity.HasKey(e => e.Id).HasName("PRIMARY");
 
             entity.ToTable("projects");
 
-            entity.Property(e => e.IdProject).HasColumnName("id_project");
+            entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.CreatedAtProject)
                 .HasColumnType("datetime")
                 .HasColumnName("created_at_project");
@@ -98,7 +98,7 @@ public partial class AgileProjDBContext : DbContext
 
         modelBuilder.Entity<Task>(entity =>
         {
-            entity.HasKey(e => e.IdTask).HasName("PRIMARY");
+            entity.HasKey(e => e.Id).HasName("PRIMARY");
 
             entity.ToTable("tasks");
 
@@ -106,7 +106,7 @@ public partial class AgileProjDBContext : DbContext
 
             entity.HasIndex(e => e.IdProject, "id_project");
 
-            entity.Property(e => e.IdTask).HasColumnName("id_task");
+            entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.CreatedAtTask)
                 .HasColumnType("datetime")
                 .HasColumnName("created_at_task");

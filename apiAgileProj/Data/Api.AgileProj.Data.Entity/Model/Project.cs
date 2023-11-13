@@ -5,7 +5,7 @@ namespace Api.AgileProj.Data.Entity.Model;
 
 public partial class Project
 {
-    public int IdProject { get; set; }
+    public int Id { get; set; }
 
     public string NameProject { get; set; } = null!;
 

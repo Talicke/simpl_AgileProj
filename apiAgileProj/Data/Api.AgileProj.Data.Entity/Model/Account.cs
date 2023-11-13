@@ -5,7 +5,7 @@ namespace Api.AgileProj.Data.Entity.Model;
 
 public partial class Account
 {
-    public int IdAccount { get; set; }
+    public int Id { get; set; }
 
     public string Username { get; set; } = null!;
 

@@ -5,7 +5,7 @@ namespace Api.AgileProj.Data.Entity.Model;
 
 public partial class Task
 {
-    public int IdTask { get; set; }
+    public int Id { get; set; }
 
     public string TitleTask { get; set; } = null!;
 
@@ -17,7 +17,7 @@ public partial class Task
 
     public DateTime EndAtTask { get; set; }
 
-    public int? IdAccount { get; set; }
+    public int IdAccount { get; set; }
 
-    public int? IdProject { get; set; }
+    public int IdProject { get; set; }
 }
