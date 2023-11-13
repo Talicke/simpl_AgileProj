@@ -17,7 +17,7 @@ public partial class Task
 
     public DateTime EndAtTask { get; set; }
 
-    public int IdAccount { get; set; }
+    public int Idaccounts { get; set; }
 
-    public int IdProject { get; set; }
+    public int Idprojects { get; set; }
 }

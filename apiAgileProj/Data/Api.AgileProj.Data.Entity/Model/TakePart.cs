@@ -5,7 +5,7 @@ namespace Api.AgileProj.Data.Entity.Model;
 
 public partial class TakePart
 {
-    public int IdAccount { get; set; }
+    public int Idaccounts { get; set; }
 
-    public int IdProject { get; set; }
+    public int Idprojects { get; set; }
 }

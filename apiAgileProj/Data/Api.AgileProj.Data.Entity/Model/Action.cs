@@ -11,5 +11,5 @@ public partial class Action
 
     public bool? IsCompleted { get; set; }
 
-    public int IdTask { get; set; }
+    public int Idtasks { get; set; }
 }
