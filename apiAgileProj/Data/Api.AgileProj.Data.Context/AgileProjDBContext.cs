@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using Api.AgileProj.Data.Context.Contract;
 using Api.AgileProj.Data.Entity.Model;
 using Microsoft.EntityFrameworkCore;
+using Action = Api.AgileProj.Data.Entity.Model.Action;
+using Task = Api.AgileProj.Data.Entity.Model.Task;
 
 namespace Api.AgileProj.Data.Entity;
 
-public partial class AgileProjDBContext : DbContext
+public partial class AgileProjDBContext : DbContext, IAgileProjDBContext
 {
     public AgileProjDBContext()
     {
@@ -26,10 +29,6 @@ public partial class AgileProjDBContext : DbContext
 
     public virtual DbSet<Task> Tasks { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseMySql("server=localhost;user=root;database=simpl_AgileProj;port=3306", Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.2.0-mysql"));
-
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder
@@ -40,7 +39,7 @@ public partial class AgileProjDBContext : DbContext
         {
             entity.HasKey(e => e.Id).HasName("PRIMARY");
 
-            entity.ToTable("accounts");
+            entity.ToTable("account");
 
             entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.Password)
@@ -55,23 +54,28 @@ public partial class AgileProjDBContext : DbContext
         {
             entity.HasKey(e => e.Id).HasName("PRIMARY");
 
-            entity.ToTable("actions");
+            entity.ToTable("action");
 
-            entity.HasIndex(e => e.Idtasks, "fk_have_tasks");
+            entity.HasIndex(e => e.Idtask, "fk_have_tasks");
 
             entity.Property(e => e.Id).HasColumnName("id");
-            entity.Property(e => e.Idtasks).HasColumnName("idtasks");
+            entity.Property(e => e.Idtask).HasColumnName("idtask");
             entity.Property(e => e.IsCompleted).HasColumnName("is_completed");
             entity.Property(e => e.TitleAction)
                 .HasMaxLength(100)
                 .HasColumnName("title_action");
+
+            entity.HasOne(d => d.IdtaskNavigation).WithMany(p => p.Actions)
+                .HasForeignKey(d => d.Idtask)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("fk_have_tasks");
         });
 
         modelBuilder.Entity<Project>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PRIMARY");
 
-            entity.ToTable("projects");
+            entity.ToTable("project");
 
             entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.CreatedAtProject)
@@ -84,27 +88,37 @@ public partial class AgileProjDBContext : DbContext
 
         modelBuilder.Entity<TakePart>(entity =>
         {
-            entity.HasKey(e => new { e.Idaccounts, e.Idprojects })
-                .HasName("PRIMARY")
-                .HasAnnotation("MySql:IndexPrefixLength", new[] { 0, 0 });
+            entity
+                .HasNoKey()
+                .ToTable("take_part");
 
-            entity.ToTable("take_part");
+            entity.HasIndex(e => e.Idaccount, "fk_takepart_account");
 
-            entity.HasIndex(e => e.Idprojects, "fk_takepart_projects");
+            entity.HasIndex(e => e.Idproject, "fk_takepart_projects");
 
-            entity.Property(e => e.Idaccounts).HasColumnName("idaccounts");
-            entity.Property(e => e.Idprojects).HasColumnName("idprojects");
+            entity.Property(e => e.Idaccount).HasColumnName("idaccount");
+            entity.Property(e => e.Idproject).HasColumnName("idproject");
+
+            entity.HasOne(d => d.IdaccountNavigation).WithMany()
+                .HasForeignKey(d => d.Idaccount)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("fk_takepart_account");
+
+            entity.HasOne(d => d.IdprojectNavigation).WithMany()
+                .HasForeignKey(d => d.Idproject)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("fk_takepart_projects");
         });
 
         modelBuilder.Entity<Task>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PRIMARY");
 
-            entity.ToTable("tasks");
+            entity.ToTable("task");
 
-            entity.HasIndex(e => e.Idaccounts, "fk_beResponsible_accounts");
+            entity.HasIndex(e => e.Idaccount, "fk_beResponsible_account");
 
-            entity.HasIndex(e => e.Idprojects, "fk_possess_projects");
+            entity.HasIndex(e => e.Idproject, "fk_possess_project");
 
             entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.CreatedAtTask)
@@ -116,12 +130,22 @@ public partial class AgileProjDBContext : DbContext
             entity.Property(e => e.EndAtTask)
                 .HasColumnType("datetime")
                 .HasColumnName("end_at_task");
-            entity.Property(e => e.Idaccounts).HasColumnName("idaccounts");
-            entity.Property(e => e.Idprojects).HasColumnName("idprojects");
+            entity.Property(e => e.Idaccount).HasColumnName("idaccount");
+            entity.Property(e => e.Idproject).HasColumnName("idproject");
             entity.Property(e => e.StatusTask).HasColumnName("status_task");
             entity.Property(e => e.TitleTask)
                 .HasMaxLength(100)
                 .HasColumnName("title_task");
+
+            entity.HasOne(d => d.IdaccountNavigation).WithMany(p => p.Tasks)
+                .HasForeignKey(d => d.Idaccount)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("fk_beResponsible_account");
+
+            entity.HasOne(d => d.IdprojectNavigation).WithMany(p => p.Tasks)
+                .HasForeignKey(d => d.Idproject)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("fk_possess_project");
         });
 
         OnModelCreatingPartial(modelBuilder);

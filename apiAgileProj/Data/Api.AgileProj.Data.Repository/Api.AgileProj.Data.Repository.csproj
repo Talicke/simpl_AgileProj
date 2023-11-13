@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Api.AgileProj.Data.Context.Contract\Api.AgileProj.Data.Context.Contract.csproj" />
+    <ProjectReference Include="..\Api.AgileProj.Data.Repository.Contract\Api.AgileProj.Data.Repository.Contract.csproj" />
+  </ItemGroup>
+
 </Project>

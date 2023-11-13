@@ -11,5 +11,7 @@ public partial class Action
 
     public bool? IsCompleted { get; set; }
 
-    public int Idtasks { get; set; }
+    public int Idtask { get; set; }
+
+    public virtual Task IdtaskNavigation { get; set; } = null!;
 }
