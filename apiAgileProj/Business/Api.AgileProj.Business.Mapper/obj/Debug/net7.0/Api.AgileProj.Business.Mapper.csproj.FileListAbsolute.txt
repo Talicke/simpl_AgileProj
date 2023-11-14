@@ -1,0 +1,17 @@
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Mapper\bin\Debug\net7.0\Api.AgileProj.Business.Mapper.deps.json
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Mapper\bin\Debug\net7.0\Api.AgileProj.Business.Mapper.dll
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Mapper\bin\Debug\net7.0\Api.AgileProj.Business.Mapper.pdb
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Mapper\bin\Debug\net7.0\Api.AgileProj.Business.Dto.dll
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Mapper\bin\Debug\net7.0\Api.AgileProj.Data.Entity.dll
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Mapper\bin\Debug\net7.0\Api.AgileProj.Data.Entity.pdb
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Mapper\bin\Debug\net7.0\Api.AgileProj.Business.Dto.pdb
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Mapper\obj\Debug\net7.0\Api.AgileProj.Business.Mapper.csproj.AssemblyReference.cache
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Mapper\obj\Debug\net7.0\Api.AgileProj.Business.Mapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Mapper\obj\Debug\net7.0\Api.AgileProj.Business.Mapper.AssemblyInfoInputs.cache
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Mapper\obj\Debug\net7.0\Api.AgileProj.Business.Mapper.AssemblyInfo.cs
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Mapper\obj\Debug\net7.0\Api.AgileProj.Business.Mapper.csproj.CoreCompileInputs.cache
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Mapper\obj\Debug\net7.0\Api.AgileProj.Business.Mapper.csproj.CopyComplete
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Mapper\obj\Debug\net7.0\Api.AgileProj.Business.Mapper.dll
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Mapper\obj\Debug\net7.0\refint\Api.AgileProj.Business.Mapper.dll
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Mapper\obj\Debug\net7.0\Api.AgileProj.Business.Mapper.pdb
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Mapper\obj\Debug\net7.0\ref\Api.AgileProj.Business.Mapper.dll

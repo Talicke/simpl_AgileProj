@@ -1,0 +1,15 @@
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Dto\bin\Debug\net7.0\Api.AgileProj.Business.Dto.deps.json
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Dto\bin\Debug\net7.0\Api.AgileProj.Business.Dto.dll
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Dto\bin\Debug\net7.0\Api.AgileProj.Business.Dto.pdb
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Dto\bin\Debug\net7.0\Api.AgileProj.Data.Entity.dll
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Dto\bin\Debug\net7.0\Api.AgileProj.Data.Entity.pdb
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Dto\obj\Debug\net7.0\Api.AgileProj.Business.Dto.csproj.AssemblyReference.cache
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Dto\obj\Debug\net7.0\Api.AgileProj.Business.Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Dto\obj\Debug\net7.0\Api.AgileProj.Business.Dto.AssemblyInfoInputs.cache
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Dto\obj\Debug\net7.0\Api.AgileProj.Business.Dto.AssemblyInfo.cs
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Dto\obj\Debug\net7.0\Api.AgileProj.Business.Dto.csproj.CoreCompileInputs.cache
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Dto\obj\Debug\net7.0\Api.AgileProj.Business.Dto.csproj.CopyComplete
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Dto\obj\Debug\net7.0\Api.AgileProj.Business.Dto.dll
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Dto\obj\Debug\net7.0\refint\Api.AgileProj.Business.Dto.dll
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Dto\obj\Debug\net7.0\Api.AgileProj.Business.Dto.pdb
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Dto\obj\Debug\net7.0\ref\Api.AgileProj.Business.Dto.dll

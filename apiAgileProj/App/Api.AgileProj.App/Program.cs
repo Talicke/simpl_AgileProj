@@ -1,3 +1,5 @@
+using Api.AgileProj.Business.Services;
+using Api.AgileProj.Business.Services.Contract;
 using Api.AgileProj.Data.Context.Contract;
 using Api.AgileProj.Data.Entity;
 using Api.AgileProj.Data.Repository;
@@ -18,10 +20,12 @@ builder.Services.AddDbContext<IAgileProjDBContext, AgileProjDBContext>(
 builder.Services.AddScoped<IAccountRepo, AccountRepo>();
 builder.Services.AddScoped<IActionRepo, ActionRepo>();
 builder.Services.AddScoped<IProjetRepo, ProjetRepo>();
-builder.Services.AddScoped<ITaskPartRepo, TaskPartRepo>();
+builder.Services.AddScoped<ITakePartRepo, TakePartRepo>();
 builder.Services.AddScoped<ITaskRepo, TaskRepo>();
 
-
+//IOC of Services
+builder.Services.AddScoped<IAccountService, AccountService>();
+builder.Services.AddScoped<ITaskService, TaskService>();
 
 // Add services to the container.
 

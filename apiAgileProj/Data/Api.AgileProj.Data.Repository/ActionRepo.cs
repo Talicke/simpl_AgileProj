@@ -66,7 +66,9 @@ namespace Api.AgileProj.Data.Repository
         /// <returns></returns>
         public async Task<List<Action>> GetActionsAsync()
         {
-            return await _dBContext.Actions.ToListAsync().ConfigureAwait(false);
+            return await _dBContext.Actions
+                .Include(x => x.IdtaskNavigation)
+                .ToListAsync().ConfigureAwait(false);
         }
 
         /// <summary>
@@ -76,8 +78,10 @@ namespace Api.AgileProj.Data.Repository
         /// <returns></returns>
         public async Task<Action> GetActionByIdAsync(int actionId)
         {
-            return await _dBContext.Actions.FirstOrDefaultAsync(x => x.Id == actionId)
-                   .ConfigureAwait(false);
+            return await _dBContext.Actions
+                .Include(x => x.IdtaskNavigation)
+                .FirstOrDefaultAsync(x => x.Id == actionId)
+                .ConfigureAwait(false);
         }
 
     }

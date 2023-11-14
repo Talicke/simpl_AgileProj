@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Task = Api.AgileProj.Data.Entity.Model.Task;
 
 namespace Api.AgileProj.Data.Repository.Contract
 {
@@ -20,14 +21,14 @@ namespace Api.AgileProj.Data.Repository.Contract
         /// </summary>
         /// <param name="taskToDelete"></param>
         /// <returns></returns>
-        Task<Task> DeleteTaskAsyn(Task taskToDelete);
+        Task<Task> DeleteTaskAsync(Task taskToDelete);
 
         /// <summary>
         /// Update an Task
         /// </summary>
         /// <param name="taskToUpdate"></param>
         /// <returns></returns>
-        Task<Task> UpdateTaskAsyn(Task taskToUpdate);
+        Task<Task> UpdateTaskAsync(Task taskToUpdate);
 
         /// <summary>
         /// Get a list of Task

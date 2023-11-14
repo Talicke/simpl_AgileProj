@@ -11,17 +11,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{F2911B49-AC7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IOC", "IOC", "{A0B42D17-2193-4C2F-B023-A5DDA6EB83B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.AgileProj.App", "App\Api.AgileProj.App\Api.AgileProj.App.csproj", "{45E3863E-50C8-416B-BB9D-726142BB943B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.AgileProj.App", "App\Api.AgileProj.App\Api.AgileProj.App.csproj", "{45E3863E-50C8-416B-BB9D-726142BB943B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.AgileProj.Data.Entity", "Data\Api.AgileProj.Data.Entity\Api.AgileProj.Data.Entity.csproj", "{F75BE6DF-D42F-4C37-86EB-82D9CB797ADB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.AgileProj.Data.Entity", "Data\Api.AgileProj.Data.Entity\Api.AgileProj.Data.Entity.csproj", "{F75BE6DF-D42F-4C37-86EB-82D9CB797ADB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.AgileProj.Data.Context", "Data\Api.AgileProj.Data.Context\Api.AgileProj.Data.Context.csproj", "{8F7951FC-2576-445E-931E-2C23E395D043}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.AgileProj.Data.Context", "Data\Api.AgileProj.Data.Context\Api.AgileProj.Data.Context.csproj", "{8F7951FC-2576-445E-931E-2C23E395D043}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.AgileProj.Data.Repository", "Data\Api.AgileProj.Data.Repository\Api.AgileProj.Data.Repository.csproj", "{2465945B-2F44-48F2-8AA8-1F6C66248239}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.AgileProj.Data.Repository", "Data\Api.AgileProj.Data.Repository\Api.AgileProj.Data.Repository.csproj", "{2465945B-2F44-48F2-8AA8-1F6C66248239}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.AgileProj.Data.Context.Contract", "Data\Api.AgileProj.Data.Context.Contract\Api.AgileProj.Data.Context.Contract.csproj", "{108831A5-9A97-45F7-B32E-0125CC7827E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.AgileProj.Data.Context.Contract", "Data\Api.AgileProj.Data.Context.Contract\Api.AgileProj.Data.Context.Contract.csproj", "{108831A5-9A97-45F7-B32E-0125CC7827E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.AgileProj.Data.Repository.Contract", "Data\Api.AgileProj.Data.Repository.Contract\Api.AgileProj.Data.Repository.Contract.csproj", "{03FEADE2-DD3D-4A8A-B7B0-E743F4BF95A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.AgileProj.Data.Repository.Contract", "Data\Api.AgileProj.Data.Repository.Contract\Api.AgileProj.Data.Repository.Contract.csproj", "{03FEADE2-DD3D-4A8A-B7B0-E743F4BF95A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.AgileProj.Business.Services", "Business\Api.AgileProj.Business.Services\Api.AgileProj.Business.Services.csproj", "{C7C5AEF6-138B-4630-B372-198B7EE828CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.AgileProj.Business.Services.Contract", "Business\Api.AgileProj.Business.Services.Contract\Api.AgileProj.Business.Services.Contract.csproj", "{ACE647CB-0233-40BA-AE45-2E57A1E89B77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.AgileProj.Business.Mapper", "Business\Api.AgileProj.Business.Mapper\Api.AgileProj.Business.Mapper.csproj", "{644061DB-251E-413A-AB76-5D36360EDDBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.AgileProj.Business.Dto", "Business\Api.AgileProj.Business.Dto\Api.AgileProj.Business.Dto.csproj", "{AF7207E1-0AF2-4DFC-9F59-1ED2519BE96F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +61,22 @@ Global
 		{03FEADE2-DD3D-4A8A-B7B0-E743F4BF95A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03FEADE2-DD3D-4A8A-B7B0-E743F4BF95A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03FEADE2-DD3D-4A8A-B7B0-E743F4BF95A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7C5AEF6-138B-4630-B372-198B7EE828CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7C5AEF6-138B-4630-B372-198B7EE828CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7C5AEF6-138B-4630-B372-198B7EE828CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7C5AEF6-138B-4630-B372-198B7EE828CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACE647CB-0233-40BA-AE45-2E57A1E89B77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE647CB-0233-40BA-AE45-2E57A1E89B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE647CB-0233-40BA-AE45-2E57A1E89B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE647CB-0233-40BA-AE45-2E57A1E89B77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{644061DB-251E-413A-AB76-5D36360EDDBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{644061DB-251E-413A-AB76-5D36360EDDBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{644061DB-251E-413A-AB76-5D36360EDDBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{644061DB-251E-413A-AB76-5D36360EDDBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF7207E1-0AF2-4DFC-9F59-1ED2519BE96F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF7207E1-0AF2-4DFC-9F59-1ED2519BE96F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF7207E1-0AF2-4DFC-9F59-1ED2519BE96F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF7207E1-0AF2-4DFC-9F59-1ED2519BE96F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +88,10 @@ Global
 		{2465945B-2F44-48F2-8AA8-1F6C66248239} = {EC2B02C7-3133-4E7C-8E03-26E07B106424}
 		{108831A5-9A97-45F7-B32E-0125CC7827E5} = {EC2B02C7-3133-4E7C-8E03-26E07B106424}
 		{03FEADE2-DD3D-4A8A-B7B0-E743F4BF95A9} = {EC2B02C7-3133-4E7C-8E03-26E07B106424}
+		{C7C5AEF6-138B-4630-B372-198B7EE828CC} = {C1B1BB8C-0515-420C-887B-F833F2E5C504}
+		{ACE647CB-0233-40BA-AE45-2E57A1E89B77} = {C1B1BB8C-0515-420C-887B-F833F2E5C504}
+		{644061DB-251E-413A-AB76-5D36360EDDBB} = {C1B1BB8C-0515-420C-887B-F833F2E5C504}
+		{AF7207E1-0AF2-4DFC-9F59-1ED2519BE96F} = {C1B1BB8C-0515-420C-887B-F833F2E5C504}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F9C5FF3B-EBDC-4F27-825C-B641015A1833}

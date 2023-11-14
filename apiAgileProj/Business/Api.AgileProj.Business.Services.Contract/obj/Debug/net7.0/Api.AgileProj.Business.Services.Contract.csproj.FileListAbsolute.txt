@@ -1,0 +1,17 @@
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Services.Contract\bin\Debug\net7.0\Api.AgileProj.Business.Services.Contract.deps.json
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Services.Contract\bin\Debug\net7.0\Api.AgileProj.Business.Services.Contract.dll
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Services.Contract\bin\Debug\net7.0\Api.AgileProj.Business.Services.Contract.pdb
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Services.Contract\bin\Debug\net7.0\Api.AgileProj.Business.Dto.dll
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Services.Contract\bin\Debug\net7.0\Api.AgileProj.Data.Entity.dll
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Services.Contract\bin\Debug\net7.0\Api.AgileProj.Business.Dto.pdb
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Services.Contract\bin\Debug\net7.0\Api.AgileProj.Data.Entity.pdb
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Services.Contract\obj\Debug\net7.0\Api.AgileProj.Business.Services.Contract.csproj.AssemblyReference.cache
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Services.Contract\obj\Debug\net7.0\Api.AgileProj.Business.Services.Contract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Services.Contract\obj\Debug\net7.0\Api.AgileProj.Business.Services.Contract.AssemblyInfoInputs.cache
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Services.Contract\obj\Debug\net7.0\Api.AgileProj.Business.Services.Contract.AssemblyInfo.cs
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Services.Contract\obj\Debug\net7.0\Api.AgileProj.Business.Services.Contract.csproj.CoreCompileInputs.cache
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Services.Contract\obj\Debug\net7.0\Api.AgileProj.Business.Services.Contract.csproj.CopyComplete
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Services.Contract\obj\Debug\net7.0\Api.AgileProj.Business.Services.Contract.dll
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Services.Contract\obj\Debug\net7.0\refint\Api.AgileProj.Business.Services.Contract.dll
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Services.Contract\obj\Debug\net7.0\Api.AgileProj.Business.Services.Contract.pdb
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Services.Contract\obj\Debug\net7.0\ref\Api.AgileProj.Business.Services.Contract.dll

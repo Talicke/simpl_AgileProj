@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Data\Api.AgileProj.Data.Entity\Api.AgileProj.Data.Entity.csproj" />
+    <ProjectReference Include="..\Api.AgileProj.Business.Dto\Api.AgileProj.Business.Dto.csproj" />
+  </ItemGroup>
+
+</Project>

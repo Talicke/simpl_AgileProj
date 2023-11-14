@@ -1,0 +1,15 @@
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Data\Api.AgileProj.Data.Repository.Contract\bin\Debug\net7.0\Api.AgileProj.Data.Repository.Contract.deps.json
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Data\Api.AgileProj.Data.Repository.Contract\bin\Debug\net7.0\Api.AgileProj.Data.Repository.Contract.dll
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Data\Api.AgileProj.Data.Repository.Contract\bin\Debug\net7.0\Api.AgileProj.Data.Repository.Contract.pdb
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Data\Api.AgileProj.Data.Repository.Contract\bin\Debug\net7.0\Api.AgileProj.Data.Entity.dll
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Data\Api.AgileProj.Data.Repository.Contract\bin\Debug\net7.0\Api.AgileProj.Data.Entity.pdb
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Data\Api.AgileProj.Data.Repository.Contract\obj\Debug\net7.0\Api.AgileProj.Data.Repository.Contract.csproj.AssemblyReference.cache
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Data\Api.AgileProj.Data.Repository.Contract\obj\Debug\net7.0\Api.AgileProj.Data.Repository.Contract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Data\Api.AgileProj.Data.Repository.Contract\obj\Debug\net7.0\Api.AgileProj.Data.Repository.Contract.AssemblyInfoInputs.cache
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Data\Api.AgileProj.Data.Repository.Contract\obj\Debug\net7.0\Api.AgileProj.Data.Repository.Contract.AssemblyInfo.cs
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Data\Api.AgileProj.Data.Repository.Contract\obj\Debug\net7.0\Api.AgileProj.Data.Repository.Contract.csproj.CoreCompileInputs.cache
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Data\Api.AgileProj.Data.Repository.Contract\obj\Debug\net7.0\Api.AgileProj.Data.Repository.Contract.csproj.CopyComplete
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Data\Api.AgileProj.Data.Repository.Contract\obj\Debug\net7.0\Api.AgileProj.Data.Repository.Contract.dll
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Data\Api.AgileProj.Data.Repository.Contract\obj\Debug\net7.0\refint\Api.AgileProj.Data.Repository.Contract.dll
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Data\Api.AgileProj.Data.Repository.Contract\obj\Debug\net7.0\Api.AgileProj.Data.Repository.Contract.pdb
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Data\Api.AgileProj.Data.Repository.Contract\obj\Debug\net7.0\ref\Api.AgileProj.Data.Repository.Contract.dll

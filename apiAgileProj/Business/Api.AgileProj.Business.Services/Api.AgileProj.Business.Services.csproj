@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Data\Api.AgileProj.Data.Repository.Contract\Api.AgileProj.Data.Repository.Contract.csproj" />
+    <ProjectReference Include="..\Api.AgileProj.Business.Dto\Api.AgileProj.Business.Dto.csproj" />
+    <ProjectReference Include="..\Api.AgileProj.Business.Mapper\Api.AgileProj.Business.Mapper.csproj" />
+    <ProjectReference Include="..\Api.AgileProj.Business.Services.Contract\Api.AgileProj.Business.Services.Contract.csproj" />
+  </ItemGroup>
+
+</Project>

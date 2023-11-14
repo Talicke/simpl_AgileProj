@@ -38,7 +38,7 @@ namespace Api.AgileProj.Data.Repository
         /// </summary>
         /// <param name="taskToDelete"></param>
         /// <returns></returns>
-        public async Task<Task> DeleteTaskAsyn(Task taskToDelete)
+        public async Task<Task> DeleteTaskAsync(Task taskToDelete)
         {
             var elementDeleted = _dBContext.Tasks.Remove(taskToDelete);
             await _dBContext.SaveChangesAsync().ConfigureAwait(false);
@@ -51,7 +51,7 @@ namespace Api.AgileProj.Data.Repository
         /// </summary>
         /// <param name="taskToUpdate"></param>
         /// <returns></returns>
-        public async Task<Task> UpdateTaskAsyn(Task taskToUpdate)
+        public async Task<Task> UpdateTaskAsync(Task taskToUpdate)
         {
             var elementUpdated = _dBContext.Tasks.Update(taskToUpdate);
             await _dBContext.SaveChangesAsync().ConfigureAwait(false);
@@ -65,7 +65,10 @@ namespace Api.AgileProj.Data.Repository
         /// <returns></returns>
         public async Task<List<Task>> GetTasksAsync()
         {
-            return await _dBContext.Tasks.ToListAsync().ConfigureAwait(false);
+            return await _dBContext.Tasks
+                .Include(x => x.IdaccountNavigation)
+                .Include(x => x.IdprojectNavigation)
+                .ToListAsync().ConfigureAwait(false);
         }
 
         /// <summary>
@@ -75,8 +78,11 @@ namespace Api.AgileProj.Data.Repository
         /// <returns></returns>
         public async Task<Task> GetTaskByIdAsync(int TaskId)
         {
-            return await _dBContext.Tasks.FirstOrDefaultAsync(x => x.Id == TaskId)
-                   .ConfigureAwait(false);
+            return await _dBContext.Tasks
+                .Include(x => x.IdaccountNavigation)
+                .Include(x => x.IdprojectNavigation)
+                .FirstOrDefaultAsync(x => x.Id == TaskId)
+                .ConfigureAwait(false);
         }
     }
 }

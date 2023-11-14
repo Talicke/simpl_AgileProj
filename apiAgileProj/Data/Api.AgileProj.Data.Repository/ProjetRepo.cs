@@ -74,8 +74,9 @@ namespace Api.AgileProj.Data.Repository
         /// <returns></returns>
         public async Task<Project> GetProjectByIdAsync(int projectId)
         {
-            return await _dBContext.Projects.FirstOrDefaultAsync(x => x.Id == projectId)
-                   .ConfigureAwait(false);
+            return await _dBContext.Projects
+                .FirstOrDefaultAsync(x => x.Id == projectId)
+                .ConfigureAwait(false);
         }
     }
 }
