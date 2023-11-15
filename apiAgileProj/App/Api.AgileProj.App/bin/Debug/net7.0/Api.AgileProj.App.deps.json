@@ -198,6 +198,7 @@
           "Api.AgileProj.Business.Dto": "1.0.0",
           "Api.AgileProj.Business.Mapper": "1.0.0",
           "Api.AgileProj.Business.Services.Contract": "1.0.0",
+          "Api.AgileProj.Data.Repository": "1.0.0",
           "Api.AgileProj.Data.Repository.Contract": "1.0.0"
         },
         "runtime": {

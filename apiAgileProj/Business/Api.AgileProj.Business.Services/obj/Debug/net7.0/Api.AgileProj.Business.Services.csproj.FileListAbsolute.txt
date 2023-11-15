@@ -21,3 +21,7 @@ C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\A
 C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Services\obj\Debug\net7.0\refint\Api.AgileProj.Business.Services.dll
 C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Services\obj\Debug\net7.0\Api.AgileProj.Business.Services.pdb
 C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Services\obj\Debug\net7.0\ref\Api.AgileProj.Business.Services.dll
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Services\bin\Debug\net7.0\Api.AgileProj.Data.Context.Contract.dll
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Services\bin\Debug\net7.0\Api.AgileProj.Data.Repository.dll
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Services\bin\Debug\net7.0\Api.AgileProj.Data.Repository.pdb
+C:\Users\Taliq\OneDrive\Documents\Codage\simpl_AgileProj\apiAgileProj\Business\Api.AgileProj.Business.Services\bin\Debug\net7.0\Api.AgileProj.Data.Context.Contract.pdb

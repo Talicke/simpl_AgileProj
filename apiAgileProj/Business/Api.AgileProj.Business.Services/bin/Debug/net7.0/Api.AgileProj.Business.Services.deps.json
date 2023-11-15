@@ -11,6 +11,7 @@
           "Api.AgileProj.Business.Dto": "1.0.0",
           "Api.AgileProj.Business.Mapper": "1.0.0",
           "Api.AgileProj.Business.Services.Contract": "1.0.0",
+          "Api.AgileProj.Data.Repository": "1.0.0",
           "Api.AgileProj.Data.Repository.Contract": "1.0.0"
         },
         "runtime": {
@@ -196,12 +197,29 @@
           "Api.AgileProj.Business.Services.Contract.dll": {}
         }
       },
+      "Api.AgileProj.Data.Context.Contract/1.0.0": {
+        "dependencies": {
+          "Api.AgileProj.Data.Entity": "1.0.0"
+        },
+        "runtime": {
+          "Api.AgileProj.Data.Context.Contract.dll": {}
+        }
+      },
       "Api.AgileProj.Data.Entity/1.0.0": {
         "dependencies": {
           "Pomelo.EntityFrameworkCore.MySql": "7.0.0"
         },
         "runtime": {
           "Api.AgileProj.Data.Entity.dll": {}
+        }
+      },
+      "Api.AgileProj.Data.Repository/1.0.0": {
+        "dependencies": {
+          "Api.AgileProj.Data.Context.Contract": "1.0.0",
+          "Api.AgileProj.Data.Repository.Contract": "1.0.0"
+        },
+        "runtime": {
+          "Api.AgileProj.Data.Repository.dll": {}
         }
       },
       "Api.AgileProj.Data.Repository.Contract/1.0.0": {
@@ -340,7 +358,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Api.AgileProj.Data.Context.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Api.AgileProj.Data.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Api.AgileProj.Data.Repository/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
