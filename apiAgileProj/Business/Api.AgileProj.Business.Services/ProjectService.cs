@@ -1,5 +1,6 @@
 ﻿using Api.AgileProj.Business.Dto.Projects;
 using Api.AgileProj.Business.Mapper.Projects;
+using Api.AgileProj.Business.Services.Contract;
 using Api.AgileProj.Data.Repository.Contract;
 using System;
 using System.Collections.Generic;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Api.AgileProj.Business.Services
 {
-    public class ProjectService
+    public class ProjectService : IProjectService
     {
         private readonly IProjectRepo _projectRepo;
 

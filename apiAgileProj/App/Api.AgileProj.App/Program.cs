@@ -25,6 +25,9 @@ builder.Services.AddScoped<ITaskRepo, TaskRepo>();
 
 //IOC of Services
 builder.Services.AddScoped<IAccountService, AccountService>();
+builder.Services.AddScoped<IActionService, ActionService>();
+builder.Services.AddScoped<IProjectService, ProjectService>();
+builder.Services.AddScoped<ITakePartService, TakePartService>();
 builder.Services.AddScoped<ITaskService, TaskService>();
 
 // Add services to the container.

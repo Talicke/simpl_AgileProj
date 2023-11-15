@@ -1,5 +1,6 @@
 ﻿using Api.AgileProj.Business.Dto.TakeParts;
 using Api.AgileProj.Business.Mapper.TakeParts;
+using Api.AgileProj.Business.Services.Contract;
 using Api.AgileProj.Data.Repository.Contract;
 using System;
 using System.Collections.Generic;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Api.AgileProj.Business.Services
 {
-    public class TakePartService
+    public class TakePartService : ITakePartService
     {
         private readonly ITakePartRepo _takePartRepo;
         private readonly IAccountRepo _accountRepo;
