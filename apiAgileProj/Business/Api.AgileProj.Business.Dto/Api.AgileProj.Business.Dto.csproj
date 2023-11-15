@@ -10,4 +10,9 @@
     <ProjectReference Include="..\..\Data\Api.AgileProj.Data.Entity\Api.AgileProj.Data.Entity.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="TakeParts\" />
+    <Folder Include="Projects\" />
+  </ItemGroup>
+
 </Project>

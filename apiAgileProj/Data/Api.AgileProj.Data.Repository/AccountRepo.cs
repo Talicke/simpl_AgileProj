@@ -77,5 +77,16 @@ namespace Api.AgileProj.Data.Repository
             return await _dBContext.Accounts.FirstOrDefaultAsync(x => x.Id == accountId)
                    .ConfigureAwait(false);
         }
+
+        /// <summary>
+        /// Get an account by username
+        /// </summary>
+        /// <param name="username"></param>
+        /// <returns></returns>
+        public async Task<Account> GetAccountByUsername(string username)
+        {
+            return await _dBContext.Accounts.FirstOrDefaultAsync(x => x.Username == username)
+                .ConfigureAwait(false);
+        }
     }
 }

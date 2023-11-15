@@ -42,5 +42,12 @@ namespace Api.AgileProj.Data.Repository.Contract
         /// <param name="accountId">id of account</param>
         /// <returns></returns>
         Task<Account> GetAccountByIdAsync(int accountId);
+
+        /// <summary>
+        /// Get an account by username
+        /// </summary>
+        /// <param name="username"></param>
+        /// <returns></returns>
+        Task<Account> GetAccountByUsername(string username);
     }
 }

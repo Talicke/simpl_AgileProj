@@ -72,6 +72,19 @@ namespace Api.AgileProj.Data.Repository
         }
 
         /// <summary>
+        /// get the list of takePart by project
+        /// </summary>
+        /// <param name="taskId"></param>
+        /// <returns></returns>
+        public async Task<List<Action>> GetActionByIdTaskAsync(int taskId)
+        {
+            return await _dBContext.Actions
+                .Include (x => x.IdtaskNavigation)
+                .Where(x => x.Idtask == taskId)
+                .ToListAsync().ConfigureAwait(false);
+        }
+
+        /// <summary>
         /// Get one Action by id
         /// </summary>
         /// <param name="accountId">id of Action</param>

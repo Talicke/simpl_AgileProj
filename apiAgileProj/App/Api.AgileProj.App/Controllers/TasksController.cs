@@ -32,7 +32,8 @@ namespace Api.AgileProj.App.Controllers
 
         // POST api/<TasksController>
         [HttpPost]
-        public async Task<ActionResult> CreateTaksAsync([FromBody] CreateTaskDto taskDto)
+        [ProducesResponseType(typeof(ReadTaskDto), 200)]
+        public async Task<ActionResult> CreateTaskAsync([FromBody] CreateTaskDto taskDto)
         {
             if (string.IsNullOrWhiteSpace(taskDto?.TitleTask) || string.IsNullOrWhiteSpace(taskDto?.DescriptionTask))
             {

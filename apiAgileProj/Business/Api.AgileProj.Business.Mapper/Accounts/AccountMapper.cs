@@ -23,5 +23,16 @@ namespace Api.AgileProj.Business.Mapper.Accounts
                 Password = createAccount.Password
             };
         }
+
+        public static ReadAccountDto TransformEntityToReadAccountDto(Account account)
+        {
+            return new ReadAccountDto()
+            {
+                Id = account.Id,
+                Username = account.Username,
+                Password = account.Password,
+                Tasks = account.Tasks
+            };
+        }
     }
 }
