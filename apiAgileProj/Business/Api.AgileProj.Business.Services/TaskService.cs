@@ -14,9 +14,9 @@ namespace Api.AgileProj.Business.Services
     {
         private readonly ITaskRepo _taskRepo;
         private readonly IAccountRepo _accountRepo;
-        private readonly IProjetRepo _projetRepo;
+        private readonly IProjectRepo _projetRepo;
         
-        public TaskService(ITaskRepo taskrepo, IAccountRepo accountRepo, IProjetRepo projetRepo)
+        public TaskService(ITaskRepo taskrepo, IAccountRepo accountRepo, IProjectRepo projetRepo)
         {
             _taskRepo = taskrepo;
             _accountRepo = accountRepo;

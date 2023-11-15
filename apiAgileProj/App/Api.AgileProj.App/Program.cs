@@ -19,7 +19,7 @@ builder.Services.AddDbContext<IAgileProjDBContext, AgileProjDBContext>(
 //IOC of Repository
 builder.Services.AddScoped<IAccountRepo, AccountRepo>();
 builder.Services.AddScoped<IActionRepo, ActionRepo>();
-builder.Services.AddScoped<IProjetRepo, ProjetRepo>();
+builder.Services.AddScoped<IProjectRepo, ProjetRepo>();
 builder.Services.AddScoped<ITakePartRepo, TakePartRepo>();
 builder.Services.AddScoped<ITaskRepo, TaskRepo>();
 

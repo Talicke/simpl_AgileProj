@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Api.AgileProj.Data.Repository
 {
-    public class ProjetRepo : IProjetRepo
+    public class ProjetRepo : IProjectRepo
     {
         private readonly IAgileProjDBContext _dBContext;
 

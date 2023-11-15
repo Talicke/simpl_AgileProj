@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Data\Api.AgileProj.Data.Repository.Contract\Api.AgileProj.Data.Repository.Contract.csproj" />
+    <ProjectReference Include="..\..\Data\Api.AgileProj.Data.Repository\Api.AgileProj.Data.Repository.csproj" />
     <ProjectReference Include="..\Api.AgileProj.Business.Dto\Api.AgileProj.Business.Dto.csproj" />
     <ProjectReference Include="..\Api.AgileProj.Business.Mapper\Api.AgileProj.Business.Mapper.csproj" />
     <ProjectReference Include="..\Api.AgileProj.Business.Services.Contract\Api.AgileProj.Business.Services.Contract.csproj" />

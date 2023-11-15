@@ -11,4 +11,8 @@
     <ProjectReference Include="..\Api.AgileProj.Business.Dto\Api.AgileProj.Business.Dto.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="TakeParts\" />
+  </ItemGroup>
+
 </Project>

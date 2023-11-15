@@ -30,6 +30,11 @@ namespace Api.AgileProj.App.Controllers
             return Ok(taskDto);
         }
 
+        /// <summary>
+        /// Create a new task
+        /// </summary>
+        /// <param name="taskDto"></param>
+        /// <returns></returns>
         // POST api/<TasksController>
         [HttpPost]
         [ProducesResponseType(typeof(ReadTaskDto), 200)]

@@ -30,7 +30,11 @@ namespace Api.AgileProj.Business.Mapper.Tasks
             };
         }
 
-
+        /// <summary>
+        /// Transform a task entity to taskDto
+        /// </summary>
+        /// <param name="task"></param>
+        /// <returns></returns>
         public static ReadTaskDto TransformEntityToReadTaskDto(Task task)
         {
             return new ReadTaskDto()

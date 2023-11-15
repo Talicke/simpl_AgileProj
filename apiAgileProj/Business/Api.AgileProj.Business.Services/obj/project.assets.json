@@ -304,6 +304,19 @@
           "bin/placeholder/Api.AgileProj.Business.Services.Contract.dll": {}
         }
       },
+      "Api.AgileProj.Data.Context.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Api.AgileProj.Data.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Api.AgileProj.Data.Context.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Api.AgileProj.Data.Context.Contract.dll": {}
+        }
+      },
       "Api.AgileProj.Data.Entity/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -315,6 +328,20 @@
         },
         "runtime": {
           "bin/placeholder/Api.AgileProj.Data.Entity.dll": {}
+        }
+      },
+      "Api.AgileProj.Data.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Api.AgileProj.Data.Context.Contract": "1.0.0",
+          "Api.AgileProj.Data.Repository.Contract": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Api.AgileProj.Data.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Api.AgileProj.Data.Repository.dll": {}
         }
       },
       "Api.AgileProj.Data.Repository.Contract/1.0.0": {
@@ -743,10 +770,20 @@
       "path": "../Api.AgileProj.Business.Services.Contract/Api.AgileProj.Business.Services.Contract.csproj",
       "msbuildProject": "../Api.AgileProj.Business.Services.Contract/Api.AgileProj.Business.Services.Contract.csproj"
     },
+    "Api.AgileProj.Data.Context.Contract/1.0.0": {
+      "type": "project",
+      "path": "../../Data/Api.AgileProj.Data.Context.Contract/Api.AgileProj.Data.Context.Contract.csproj",
+      "msbuildProject": "../../Data/Api.AgileProj.Data.Context.Contract/Api.AgileProj.Data.Context.Contract.csproj"
+    },
     "Api.AgileProj.Data.Entity/1.0.0": {
       "type": "project",
       "path": "../../Data/Api.AgileProj.Data.Entity/Api.AgileProj.Data.Entity.csproj",
       "msbuildProject": "../../Data/Api.AgileProj.Data.Entity/Api.AgileProj.Data.Entity.csproj"
+    },
+    "Api.AgileProj.Data.Repository/1.0.0": {
+      "type": "project",
+      "path": "../../Data/Api.AgileProj.Data.Repository/Api.AgileProj.Data.Repository.csproj",
+      "msbuildProject": "../../Data/Api.AgileProj.Data.Repository/Api.AgileProj.Data.Repository.csproj"
     },
     "Api.AgileProj.Data.Repository.Contract/1.0.0": {
       "type": "project",
@@ -759,6 +796,7 @@
       "Api.AgileProj.Business.Dto >= 1.0.0",
       "Api.AgileProj.Business.Mapper >= 1.0.0",
       "Api.AgileProj.Business.Services.Contract >= 1.0.0",
+      "Api.AgileProj.Data.Repository >= 1.0.0",
       "Api.AgileProj.Data.Repository.Contract >= 1.0.0"
     ]
   },
@@ -806,6 +844,9 @@
             },
             "C:\\Users\\Taliq\\OneDrive\\Documents\\Codage\\simpl_AgileProj\\apiAgileProj\\Data\\Api.AgileProj.Data.Repository.Contract\\Api.AgileProj.Data.Repository.Contract.csproj": {
               "projectPath": "C:\\Users\\Taliq\\OneDrive\\Documents\\Codage\\simpl_AgileProj\\apiAgileProj\\Data\\Api.AgileProj.Data.Repository.Contract\\Api.AgileProj.Data.Repository.Contract.csproj"
+            },
+            "C:\\Users\\Taliq\\OneDrive\\Documents\\Codage\\simpl_AgileProj\\apiAgileProj\\Data\\Api.AgileProj.Data.Repository\\Api.AgileProj.Data.Repository.csproj": {
+              "projectPath": "C:\\Users\\Taliq\\OneDrive\\Documents\\Codage\\simpl_AgileProj\\apiAgileProj\\Data\\Api.AgileProj.Data.Repository\\Api.AgileProj.Data.Repository.csproj"
             }
           }
         }
