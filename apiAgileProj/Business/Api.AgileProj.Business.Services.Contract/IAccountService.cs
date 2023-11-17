@@ -15,6 +15,14 @@ namespace Api.AgileProj.Business.Services.Contract
         /// <returns></returns>
         Task<List<ReadAccountDto>> GetAccountAsync();
 
+
+        /// <summary>
+        /// Return an Account by username
+        /// </summary>
+        /// <param name="username"></param>
+        /// <returns></returns>
+        Task<ReadAccountDto> GetAccountByUsernameAsync(string username);
+
         /// <summary>
         /// Create an account if username not exist
         /// </summary>
@@ -23,5 +31,12 @@ namespace Api.AgileProj.Business.Services.Contract
         /// <exception cref="ArgumentNullException"></exception>
         /// <exception cref="Exception"></exception>
         Task<ReadAccountDto> CreateAccountAsync(CreateAccountDto accountDto);
+
+        /// <summary>
+        /// Allow login
+        /// </summary>
+        /// <param name="accountDto"></param>
+        /// <returns></returns>
+        Task<bool> login(CreateAccountDto accountDto);
     }
 }

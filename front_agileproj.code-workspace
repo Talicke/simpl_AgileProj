@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "front_agileproj"
+		}
+	],
+	"settings": {
+		"workbench.colorCustomizations": {
+			"activityBar.activeBackground": "#1e1c5a",
+			"activityBar.background": "#1e1c5a",
+			"activityBar.foreground": "#e7e7e7",
+			"activityBar.inactiveForeground": "#e7e7e799",
+			"activityBarBadge.background": "#aa3935",
+			"activityBarBadge.foreground": "#e7e7e7",
+			"commandCenter.border": "#e7e7e799",
+			"sash.hoverBorder": "#1e1c5a",
+			"statusBar.background": "#111033",
+			"statusBar.foreground": "#e7e7e7",
+			"statusBarItem.hoverBackground": "#1e1c5a",
+			"statusBarItem.remoteBackground": "#111033",
+			"statusBarItem.remoteForeground": "#e7e7e7",
+			"titleBar.activeBackground": "#111033",
+			"titleBar.activeForeground": "#e7e7e7",
+			"titleBar.inactiveBackground": "#11103399",
+			"titleBar.inactiveForeground": "#e7e7e799"
+		},
+		"peacock.color": "#111033"
+	}
+}

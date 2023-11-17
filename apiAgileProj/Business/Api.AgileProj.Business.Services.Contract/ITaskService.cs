@@ -25,5 +25,12 @@ namespace Api.AgileProj.Business.Services.Contract
         /// <exception cref="ArgumentNullException"></exception>
         /// <exception cref="Exception"></exception>
         Task<ReadTaskDto> CreateTaskAsync(CreateTaskDto taskDto);
+
+        /// <summary>
+        /// return a list of Task by project id
+        /// </summary>
+        /// <param name="idProject"></param>
+        /// <returns></returns>
+        Task<List<ReadTaskDto>> GetTaskByProjectIdAsync(int idProject);
     }
 }

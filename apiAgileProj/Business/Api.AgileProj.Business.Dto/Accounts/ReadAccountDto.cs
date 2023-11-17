@@ -10,7 +10,5 @@ namespace Api.AgileProj.Business.Dto.Accounts
     public class ReadAccountDto : CreateAccountDto
     {
         public int Id { get; set; }
-
-        public ICollection<Task> Tasks { get; set; }
     }
 }

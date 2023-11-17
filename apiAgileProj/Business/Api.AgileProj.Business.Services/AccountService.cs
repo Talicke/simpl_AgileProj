@@ -40,6 +40,43 @@ namespace Api.AgileProj.Business.Services
         }
 
         /// <summary>
+        /// Return an Account by username
+        /// </summary>
+        /// <param name="username"></param>
+        /// <returns></returns>
+        public async Task<ReadAccountDto> GetAccountByUsernameAsync(string username)
+        {
+            var account = await _accountRepo.GetAccountByUsernameAsync(username);
+            return AccountMapper.TransformEntityToReadAccountDto(account);
+        }
+
+        /// <summary>
+        /// Allow login
+        /// </summary>
+        /// <param name="accountDto"></param>
+        /// <returns></returns>
+        public async Task<bool> login(CreateAccountDto accountDto) 
+        {
+            var account = await _accountRepo.GetAccountByUsernameAsync(accountDto.Username);
+
+            if (account != null) 
+            {
+                if(account.Password == accountDto.Password) 
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        /// <summary>
         /// Create an account if username not exist
         /// </summary>
         /// <param name="accountDto"></param>
@@ -54,7 +91,7 @@ namespace Api.AgileProj.Business.Services
             }
 
             //verify username account doesn't already exist
-            var existAccount = await _accountRepo.GetAccountByUsername(accountDto.Username);
+            var existAccount = await _accountRepo.GetAccountByUsernameAsync(accountDto.Username);
 
             if (existAccount != null)
             {

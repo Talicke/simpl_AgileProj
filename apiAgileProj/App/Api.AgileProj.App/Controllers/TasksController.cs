@@ -63,14 +63,17 @@ namespace Api.AgileProj.App.Controllers
 
         }
 
-        /*
+        
         // GET api/<TasksController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        [ProducesResponseType(typeof(List<ReadTaskDto>), 200)]
+        public async Task<ActionResult> GetTaskByProjectIdAsync(int id)
         {
-            return "value";
+            var tasksDto = await _taskService.GetTaskByProjectIdAsync(id).ConfigureAwait(false);
+            return Ok(tasksDto);
         }
 
+        /*
         // PUT api/<TasksController>/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)

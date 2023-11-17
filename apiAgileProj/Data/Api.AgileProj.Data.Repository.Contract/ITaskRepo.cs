@@ -42,5 +42,12 @@ namespace Api.AgileProj.Data.Repository.Contract
         /// <param name="TaskId">id of Task</param>
         /// <returns></returns>
         Task<Task> GetTaskByIdAsync(int TaskId);
+
+        /// <summary>
+        /// Get a list of task By project Id
+        /// </summary>
+        /// <param name="projectId"></param>
+        /// <returns></returns>
+        Task<List<Task>> GetTaskByProjectIdAsync(int projectId);
     }
 }

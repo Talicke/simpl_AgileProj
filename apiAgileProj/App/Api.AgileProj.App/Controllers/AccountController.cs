@@ -28,6 +28,7 @@ namespace Api.AgileProj.App.Controllers
         }
 
         
+        
 
         // POST api/<AccountController>
         [HttpPost]
@@ -56,13 +57,35 @@ namespace Api.AgileProj.App.Controllers
             }
         }
 
-        /*
+        
         // GET api/<AccountController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        [HttpGet("{username}")]
+        [ProducesResponseType(typeof(ReadAccountDto), 200)]
+        public async Task<ActionResult> GetAccountByUsernameAsync(string username)
         {
-            return "value";
+            if (string.IsNullOrWhiteSpace(username))
+            {
+                return BadRequest(new
+                {
+                    Error = "No Username Provided"
+                });
+            }
+
+            try
+            {
+                var account = await _accountService.GetAccountByUsernameAsync(username).ConfigureAwait(false);
+                return Ok(account);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new
+                { 
+                    Error = ex.Message 
+                });
+            }
         }
+
+        /*
         // PUT api/<AccountController>/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)

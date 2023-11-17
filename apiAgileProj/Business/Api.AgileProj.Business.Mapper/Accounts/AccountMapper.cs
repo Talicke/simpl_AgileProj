@@ -30,8 +30,8 @@ namespace Api.AgileProj.Business.Mapper.Accounts
             {
                 Id = account.Id,
                 Username = account.Username,
-                Password = account.Password,
-                Tasks = account.Tasks
+                //Password = account.Password,
+                //Tasks = account.Tasks
             };
         }
     }

@@ -84,5 +84,19 @@ namespace Api.AgileProj.Data.Repository
                 .FirstOrDefaultAsync(x => x.Id == TaskId)
                 .ConfigureAwait(false);
         }
+
+        /// <summary>
+        /// Get a list of task By project Id
+        /// </summary>
+        /// <param name="projectId"></param>
+        /// <returns></returns>
+        public async Task<List<Task>> GetTaskByProjectIdAsync(int projectId)
+        {
+            return await _dBContext.Tasks
+                .Include(x => x.IdprojectNavigation)
+                .Include(x => x.IdaccountNavigation)
+                .Where(x => x.Idproject == projectId)
+                .ToListAsync() .ConfigureAwait(false);  
+        }
     }
 }

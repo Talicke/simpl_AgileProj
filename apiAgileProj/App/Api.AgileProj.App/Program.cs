@@ -16,6 +16,7 @@ builder.Services.AddDbContext<IAgileProjDBContext, AgileProjDBContext>(
     options => options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString))
 );
 
+
 //IOC of Repository
 builder.Services.AddScoped<IAccountRepo, AccountRepo>();
 builder.Services.AddScoped<IActionRepo, ActionRepo>();
@@ -45,6 +46,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors(options => options
+            .AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader()
+        );
 
 app.UseHttpsRedirection();
 

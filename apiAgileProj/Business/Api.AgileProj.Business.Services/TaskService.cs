@@ -72,9 +72,24 @@ namespace Api.AgileProj.Business.Services
             var taskAdded = await _taskRepo.CreateTaskAsync(taskToAdd).ConfigureAwait(false);
 
             return TaskMapper.TransformEntityToReadTaskDto(taskAdded);
+        }
 
+        /// <summary>
+        /// return a list of Task by project id
+        /// </summary>
+        /// <param name="idProject"></param>
+        /// <returns></returns>
+        public async Task<List<ReadTaskDto>> GetTaskByProjectIdAsync(int idProject)
+        {
+            var tasks = await _taskRepo.GetTaskByProjectIdAsync(idProject).ConfigureAwait(false);
+            List<ReadTaskDto> taskDtos = new List<ReadTaskDto>();
 
+            foreach (var task in tasks)
+            {
+                taskDtos.Add(TaskMapper.TransformEntityToReadTaskDto(task));
+            }
 
+            return taskDtos;
         }
     }
 }
